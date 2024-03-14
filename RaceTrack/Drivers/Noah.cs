@@ -19,9 +19,6 @@ namespace RaceTrack.RaceTrack.Drivers
         {
             Car.Accelerate(SkillLevel);
         }
-        public  void Brake()
-        {
-            Console.WriteLine("the car has stopped");
-        }
+
     }
 }

@@ -17,5 +17,15 @@ namespace RaceTrack.RaceTrack.Cars
         {
             Console.WriteLine($"The {Name} fires the cylinders!");
         }
+        public override void Brake()
+        {
+            Console.WriteLine($"{Name} will never stop");
+            base.Brake();
+        }
+
+        public override void StopEngine()
+        {
+            Console.WriteLine("The tiguan has done the job"); 
+        }
     }
 }
